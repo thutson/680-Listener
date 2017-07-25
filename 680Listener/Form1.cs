@@ -20,6 +20,7 @@ namespace _680Listener
 
             comboBox1.DataSource = items;
 
+            webBrowser1.ScriptErrorsSuppressed = true;
             //Default to 680 and start playing on startup.
             webBrowser1.Navigate("http://player.tritondigital.com/15081");
         }
