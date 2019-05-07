@@ -23,17 +23,17 @@ namespace _680Listener
 
             webBrowser1.ScriptErrorsSuppressed = true;
             //Default to 680 and start playing on startup.
-            webBrowser1.Navigate("http://player.tritondigital.com/15081");
+            webBrowser1.Navigate(@"http://player.listenlive.co/59261");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedValue.ToString() == "680")
-                webBrowser1.Navigate("http://player.tritondigital.com/15081");
+                webBrowser1.Navigate(@"http://player.listenlive.co/59261");
             else if (comboBox1.SelectedValue.ToString() == "1230")
-                webBrowser1.Navigate("http://player.tritondigital.com/19591");
+                webBrowser1.Navigate(@"http://player.listenlive.co/59271");
             else if (comboBox1.SelectedValue.ToString() == "1340")
-                webBrowser1.Navigate("http://player.tritondigital.com/19601");
+                webBrowser1.Navigate(@"http://player.listenlive.co/59281");
             else if (comboBox1.SelectedValue.ToString() == "SST")
                 webBrowser1.Navigate("http://player.listenlive.co/57991/");
             else
