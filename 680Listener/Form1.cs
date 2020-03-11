@@ -23,7 +23,7 @@ namespace _680Listener
 
             webBrowser1.ScriptErrorsSuppressed = true;
             //Default to 680 and start playing on startup.
-            webBrowser1.Navigate(@"http://player.listenlive.co/59261");
+            webBrowser1.Navigate(@"https://player.listenlive.co/59261");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
