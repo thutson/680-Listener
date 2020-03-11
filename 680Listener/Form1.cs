@@ -29,15 +29,15 @@ namespace _680Listener
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedValue.ToString() == "680")
-                webBrowser1.Navigate(@"http://player.listenlive.co/59261");
+                webBrowser1.Navigate(@"https://player.listenlive.co/59261");
             else if (comboBox1.SelectedValue.ToString() == "1230")
-                webBrowser1.Navigate(@"http://player.listenlive.co/59271");
+                webBrowser1.Navigate(@"https://player.listenlive.co/59271");
             else if (comboBox1.SelectedValue.ToString() == "1340")
-                webBrowser1.Navigate(@"http://player.listenlive.co/59281");
+                webBrowser1.Navigate(@"https://player.listenlive.co/59281");
             else if (comboBox1.SelectedValue.ToString() == "SST")
-                webBrowser1.Navigate("http://player.listenlive.co/57991/");
+                webBrowser1.Navigate("https://player.listenlive.co/57991/");
             else
-                webBrowser1.Navigate("http://player.streamguys.com/cmg/atl750/sgplayer/player.php");
+                webBrowser1.Navigate("https://player.streamguys.com/cmg/atl750/sgplayer/player.php");
         }
     }
 }
